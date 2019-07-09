@@ -1,0 +1,10 @@
+{
+  "name": "Casino",
+  "version": "1.0.5",
+  "manifest_version": 2,
+  "description": "カジノ Chrome Extension",
+  "content_scripts": [{
+    "matches": ["https://livecasino3.aggregatedfun.net/mobile/#table_id=48z5pjps3ntvqc1b&vt_id=&category=roulette&game=roulette&*"],
+    "js": ["jquery.min.js", "count.js"]
+  }]
+}
